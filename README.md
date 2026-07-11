@@ -12,7 +12,7 @@ DevSecOps Learning Lab is my personal engineering playground where I explore the
 
 Rather than simply following tutorials, this repository is organized as a collection of small hands-on projects. Each project focuses on solving a specific engineering problem while gradually building a complete understanding of modern software engineering and DevSecOps practices.
 
-The goal is to learn each concept step by step, document what I learn, and eventually apply these skills to larger real-world projects such as **SmartFlood V4**, **Gunita**, and future production-ready applications.
+The goal is to learn each concept step by step, document what I learn, and eventually apply these skills to larger real-world projects such as **SmartFlood V4**, and future production-ready applications.
 
 This repository serves as both my learning journal and a record of my growth as I transition from building applications to understanding how software is securely developed, deployed, and operated in production environments.
 
@@ -45,13 +45,13 @@ This repository was created to:
 
 ## 🐳 Phase 2 — Containerization
 
-- [ ] Docker Fundamentals
-- [ ] Docker Images
-- [ ] Docker Containers
-- [ ] Docker Volumes
-- [ ] Docker Networks
-- [ ] Docker Compose
-- [ ] Multi-Container Applications
+- [x] Docker Fundamentals
+- [x] Docker Images
+- [x] Docker Containers
+- [x] Docker Volumes
+- [x] Docker Networks
+- [x] Docker Compose
+- [x] Multi-Container Applications
 
 ---
 
@@ -162,7 +162,6 @@ The goal is not simply to learn tools, but to understand **why they exist, when 
 The knowledge gained from this repository will be continuously applied to larger projects, including:
 
 - 🌊 SmartFlood V4
-- 📖 Gunita
 - 🔒 Future security-focused applications
 - ☁️ Cloud-native full-stack systems
 
