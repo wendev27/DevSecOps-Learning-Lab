@@ -51,7 +51,7 @@ This repository was created to:
 - [x] Docker Volumes
 - [x] Docker Networks
 - [x] Docker Compose
-- [x] Multi-Container Applications
+- [ ] Multi-Container Applications
 
 ---
 
