@@ -45,13 +45,14 @@ This repository was created to:
 
 ## 🐳 Phase 2 — Containerization
 
-- [ ] Docker Fundamentals
-- [ ] Docker Images
-- [ ] Docker Containers
-- [ ] Docker Volumes
-- [ ] Docker Networks
-- [ ] Docker Compose
-- [ ] Multi-Container Applications
+- [x] Docker Fundamentals
+- [x] Docker Images
+- [x] Docker Containers
+- [x] Docker Volumes
+- [x] Docker Networks
+- [x] Docker Compose
+- [x] Dockerfiles & Custom Images
+- [x] Multi-Container Applications
 
 ---
 
