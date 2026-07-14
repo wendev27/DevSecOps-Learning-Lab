@@ -7,9 +7,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Install Node
+        uses: actions/setup-node@v4
         with:
           node-version: 24
 
@@ -21,8 +23,6 @@ jobs:
         run: npm test
         working-directory: labs/github-actions/testing-lab
 
-      - name: Build Docker image
-        run: |
-          docker build \
-            -t my-first-image \
-            labs/docker/dockerfile-lab
+      - name: Build application
+        run: npm run build
+        working-directory: labs/github-actions/testing-lab
