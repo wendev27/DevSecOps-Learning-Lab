@@ -15,8 +15,10 @@ jobs:
         with:
           node-version: 24
 
-      - name: Show Node version
-        run: node --version
+      - name: Install dependencies
+        run: npm install
+        working-directory: labs/github-actions/testing-lab
 
-      - name: Show npm version
-        run: npm --version
+      - name: Run tests
+        run: npm test
+        working-directory: labs/github-actions/testing-lab
