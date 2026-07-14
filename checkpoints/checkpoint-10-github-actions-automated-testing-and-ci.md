@@ -1,4 +1,4 @@
-Checkpoint 09 — GitHub Actions, Automated Testing & Continuous Integration
+Checkpoint 10 — GitHub Actions, Automated Testing & Continuous Integration
 Objective
 
 Understand how GitHub Actions automates software validation by creating temporary runners that install dependencies, execute tests, and build applications whenever code is pushed.
