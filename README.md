@@ -58,9 +58,9 @@ This repository was created to:
 
 ## 🚀 Phase 3 — CI/CD
 
-- [ ] GitHub Actions
-- [ ] Automated Testing
-- [ ] Continuous Integration
+- [x] GitHub Actions
+- [x] Automated Testing
+- [x] Continuous Integration
 - [ ] Continuous Deployment
 - [ ] Deployment Pipelines
 
