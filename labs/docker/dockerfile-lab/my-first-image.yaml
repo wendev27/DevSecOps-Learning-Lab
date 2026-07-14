@@ -1,0 +1,5 @@
+- name: Build Docker image
+  run: |
+    docker build \
+      -t my-first-image \
+      labs/docker/dockerfile-lab
