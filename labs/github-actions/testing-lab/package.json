@@ -4,7 +4,8 @@
   "description": "",
   "main": "math.js",
   "scripts": {
-    "test": "node math.test.js"
+    "test": "node math.test.js",
+    "build": "node build.js"
   },
   "keywords": [],
   "author": "",
