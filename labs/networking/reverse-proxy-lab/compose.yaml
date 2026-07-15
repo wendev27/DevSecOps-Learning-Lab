@@ -1,0 +1,18 @@
+services:
+  frontend:
+    image: nginx
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+
+  backend:
+    build: ./backend
+
+  nginx:
+    image: nginx
+    ports:
+      - '8080:80'
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - frontend
+      - backend
