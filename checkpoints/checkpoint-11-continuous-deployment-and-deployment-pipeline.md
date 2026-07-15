@@ -35,7 +35,7 @@ Authenticate securely
 ↓
 Push image to Docker Hub
 ↓
-Deployment artifact is ready
+Continuous Deployment is ready
 
 This is the foundation of:
 
@@ -298,3 +298,86 @@ Registry
 Production
 
 And that's the exact architecture behind modern cloud systems used by companies like Netflix, Spotify, Uber, and thousands of SaaS platforms. 🚀
+
+# CI/CD Pipeline Evidence
+
+The GitHub Actions workflow successfully:
+
+Checked out the repository.
+Installed dependencies.
+Executed automated tests.
+Built the Docker image.
+Logged into Docker Hub securely.
+Pushed the image to the Docker registry.
+
+Workflow highlights:
+
+✅ Test passed!
+
+Login Succeeded!
+
+docker push wendev27/my-first-image:latest
+
+latest: digest: sha256:6bce80...
+
+One of the coolest parts of your logs is that Docker reused existing layers instead of uploading everything again:
+
+Layer already exists
+Layer already exists
+27e07acd5a2a: Pushed
+5a6b04edcc75: Pushed
+
+That proves that Docker optimizes storage and network usage. Your workflow logs clearly show this behavior.
+
+# Github workflow
+
+Final Workflow
+name: Node CI
+
+on: push
+
+jobs:
+test:
+runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: labs/github-actions/testing-lab
+
+      - name: Run tests
+        run: npm test
+        working-directory: labs/github-actions/testing-lab
+
+      - name: Build Docker image
+        run: |
+          docker build \
+            -t my-first-image \
+            labs/docker/dockerfile-lab
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_TOKEN }}
+
+      - name: Push Docker image
+        run: |
+          docker tag my-first-image wendev27/my-first-image:latest
+          docker push wendev27/my-first-image:latest
+
+# Personal Realization
+
+Before this checkpoint, I thought deployment meant manually copying files to a server.
+
+After building this pipeline, I understood that modern software delivery is a chain of automated systems:
+
+Code → Tests → Container → Registry → Deployment.
+
+A simple git push can trigger an entire software factory.
