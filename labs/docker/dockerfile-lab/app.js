@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-  res.end('Hello from my first Docker image! 🐳');
+  res.end("Hello from WenDev's production pipeline! 🚀");
 });
 
 server.listen(3000, () => {
