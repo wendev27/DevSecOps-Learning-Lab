@@ -61,9 +61,9 @@ This repository was created to:
 - [x] GitHub Actions
 - [x] Automated Testing
 - [x] Continuous Integration
-- [ ] Secrets Management
-- [ ] Continuous Deployment
-- [ ] Deployment Pipelines
+- [x] Secrets Management
+- [x] Continuous Deployment
+- [x] Deployment Pipelines
 
 ---
 
