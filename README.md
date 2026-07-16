@@ -69,12 +69,12 @@ This repository was created to:
 
 ## 🛡️ Phase 4 — DevSecOps
 
-- [ ] Environment Variables & Secrets Management
-- [ ] Dependency Scanning
-- [ ] Static Application Security Testing (SAST)
-- [ ] CodeQL
-- [ ] Trivy Container Scanning
-- [ ] Container Security
+- [x] Environment Variables & Secrets Management
+- [x] Dependency Scanning
+- [x] Static Application Security Testing (SAST)
+- [x] CodeQL
+- [x] Trivy Container Scanning
+- [x] Container Security
 - [ ] Secure CI/CD Pipelines
 - [ ] OWASP Security Practices
 
@@ -82,8 +82,8 @@ This repository was created to:
 
 ## 🌐 Phase 5 — Infrastructure
 
-- [ ] Nginx
-- [ ] Reverse Proxy
+- [x] Nginx
+- [x] Reverse Proxy
 - [ ] HTTPS
 - [ ] SSL Certificates
 
