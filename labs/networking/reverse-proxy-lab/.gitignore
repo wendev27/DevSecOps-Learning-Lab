@@ -1,0 +1,6 @@
+# # SSL certificates
+# ssl/
+
+# Or, if you prefer:
+*.key
+# *.crt
