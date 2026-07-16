@@ -85,8 +85,8 @@ This repository was created to:
 
 - [x] Nginx
 - [x] Reverse Proxy
-- [ ] HTTPS
-- [ ] SSL Certificates
+- [x] HTTPS
+- [x] SSL Certificates
 
 ---
 
