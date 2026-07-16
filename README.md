@@ -75,7 +75,8 @@ This repository was created to:
 - [x] CodeQL
 - [x] Trivy Container Scanning
 - [x] Container Security
-- [ ] Secure CI/CD Pipelines
+- [x] Secure CI/CD Pipelines
+- [ ] Branch Protection
 - [ ] OWASP Security Practices
 
 ---
