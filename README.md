@@ -98,7 +98,7 @@ This repository was created to:
 - [x] Persistence
 - [x] Database Migrations (conceptually)
 - [x] Backups
-- [ ] Redis
+- [x] Redis
 
 ---
 
