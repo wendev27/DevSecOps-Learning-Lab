@@ -92,10 +92,13 @@ This repository was created to:
 
 ## 🗄️ Phase 6 — Databases & Caching
 
-- [ ] PostgreSQL
+- [x] PostgreSQL in Docker
+- [x] SQL CRUD
+- [x] Docker Volumes
+- [x] Persistence
+- [x] Database Migrations (conceptually)
+- [x] Backups
 - [ ] Redis
-- [ ] Database Backups
-- [ ] Database Migrations
 
 ---
 
