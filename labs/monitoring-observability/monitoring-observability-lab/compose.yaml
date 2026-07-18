@@ -1,0 +1,8 @@
+services:
+  app:
+    build: ./app
+
+    container_name: monitoring-app
+
+    ports:
+      - '3000:3000'
