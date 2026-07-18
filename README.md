@@ -104,11 +104,14 @@ This repository was created to:
 
 ## 📈 Phase 7 — Monitoring & Observability
 
-- [ ] Application Logging
-- [ ] Health Checks
-- [ ] Prometheus
+- [x] Application Logging
+- [x] Health Checks
+- [x] Docker Health Checks
+- [x] Prometheus installation
+- [x] Metrics endpoint
 - [ ] Grafana
-- [ ] Metrics & Monitoring
+- [ ] Dashboards
+- [ ] Visualization
 
 ---
 
