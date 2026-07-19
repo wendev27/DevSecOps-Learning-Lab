@@ -109,9 +109,17 @@ This repository was created to:
 - [x] Docker Health Checks
 - [x] Prometheus installation
 - [x] Metrics endpoint
-- [ ] Grafana
-- [ ] Dashboards
-- [ ] Visualization
+- [x] Grafana
+- [x] Dashboards
+- [x] Visualization
+
+### Optional Advanced Topics
+
+- [ ] Alerting fundamentals
+- [ ] Grafana alerts
+- [ ] Alert rules and thresholds
+- [ ] Notification channels
+- [ ] Incident response basics
 
 ---
 
