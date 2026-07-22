@@ -115,11 +115,11 @@ This repository was created to:
 
 ### Optional Advanced Topics
 
-- [ ] Alerting fundamentals
-- [ ] Grafana alerts
-- [ ] Alert rules and thresholds
-- [ ] Notification channels
-- [ ] Incident response basics
+- [x] Alerting fundamentals
+- [x] Grafana alerts
+- [x] Alert rules and thresholds
+- [x] Notification channels (conceptually)
+- [x] Incident response basics (conceptually)
 
 ---
 
