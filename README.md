@@ -125,7 +125,12 @@ This repository was created to:
 
 ## ☁️ Phase 8 — Cloud & Orchestration
 
-- [ ] Kubernetes
+- [ ] Kubernetes Fundamentals
+- [ ] Pods
+- [ ] Deployments
+- [ ] Services
+- [ ] ConfigMaps
+- [ ] Secrets
 - [ ] Helm
 - [ ] Cloud Deployment
 - [ ] Infrastructure Best Practices
