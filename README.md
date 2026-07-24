@@ -125,10 +125,29 @@ This repository was created to:
 
 ## ☁️ Phase 8 — Cloud & Orchestration
 
-- [ ] Kubernetes Fundamentals
-- [ ] Pods
-- [ ] Deployments
+- [x] Kubernetes Fundamentals
+  - [x] What problem Kubernetes solves
+  - [x] Cluster, Node, Pod, Container
+  - [x] Install kubectl
+  - [x] Install Kind
+  - [x] Create your first cluster
+- [x] Pods
+  - [x] Create Pods
+  - [x] Inspect Pods
+  - [x] Delete Pods
+- [x] Deployments
+  - [x] Deployment Fundamentals
+  - [x] ReplicaSets
+  - [x] Self-Healing
+  - [ ] Scaling Deployments
 - [ ] Services
+  - [ ] Labels
+  - [ ] Selectors
+  - [ ] ClusterIP
+  - [ ] NodePort
+  - [ ] LoadBalancer
+  - [ ] Exposing Deployments
+  - [ ] Pod Networking
 - [ ] ConfigMaps
 - [ ] Secrets
 - [ ] Helm
