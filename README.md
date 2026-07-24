@@ -135,8 +135,19 @@ This repository was created to:
   - [x] Create Pods
   - [x] Inspect Pods
   - [x] Delete Pods
-- [ ] Deployments
+- [x] Deployments
+  - [x] Deployment Fundamentals
+  - [x] ReplicaSets
+  - [x] Self-Healing
+  - [ ] Scaling Deployments
 - [ ] Services
+  - [ ] Labels
+  - [ ] Selectors
+  - [ ] ClusterIP
+  - [ ] NodePort
+  - [ ] LoadBalancer
+  - [ ] Exposing Deployments
+  - [ ] Pod Networking
 - [ ] ConfigMaps
 - [ ] Secrets
 - [ ] Helm
