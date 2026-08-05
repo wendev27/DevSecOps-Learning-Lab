@@ -140,13 +140,13 @@ This repository exists to:
   - [x] ReplicaSets
   - [x] Self-Healing
   - [x] Scaling Deployments
-- [ ] Services
-  - [ ] Labels
-  - [ ] Selectors
-  - [ ] ClusterIP
-  - [ ] NodePort
+- [x] Services
+  - [x] Labels
+  - [x] Selectors
+  - [x] ClusterIP
+  - [x] NodePort
   - [ ] LoadBalancer
-  - [ ] Exposing Deployments
+  - [x] Exposing Deployments
   - [ ] Pod Networking
 - [ ] ConfigMaps
 - [ ] Secrets
