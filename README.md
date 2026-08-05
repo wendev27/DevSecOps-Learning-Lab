@@ -1,4 +1,4 @@
-# ⚙️ DevSecOps Learning Lab
+# ⚙️ DevSecOps Learning Lab V2
 
 > **Learn. Build. Secure. Deploy. Document.**
 >
