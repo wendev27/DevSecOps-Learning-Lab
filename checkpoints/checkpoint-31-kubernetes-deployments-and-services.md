@@ -1,4 +1,4 @@
-# Checkpoint 30 — Kubernetes Deployments & Services
+# Checkpoint 31 — Kubernetes Deployments & Services
 
 ## 🎯 Objective
 
