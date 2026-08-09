@@ -145,9 +145,9 @@ This repository exists to:
   - [x] Selectors
   - [x] ClusterIP
   - [x] NodePort
-  - [ ] LoadBalancer
+  - [x] LoadBalancer
   - [x] Exposing Deployments
-  - [ ] Pod Networking
+  - [x] Pod Networking
 - [ ] ConfigMaps
 - [ ] Secrets
 - [ ] Helm
