@@ -156,12 +156,26 @@ This repository exists to:
 
 ## ☁️ Phase 9 — Cloud Engineering
 
+- [x] AWS Account Setup and Cost Safeguards
+  - [x] Inspect AWS credits and billing
+  - [ ] Configure a cost budget
+  - [ ] Configure billing alerts
 - [ ] AWS Fundamentals
-  - [ ] IAM
-  - [ ] EC2
-  - [ ] S3
-  - [ ] VPC Basics
+  - [ ] AWS Regions and Availability Zones
+  - [ ] IAM and Least Privilege
+  - [ ] EC2 Instance Lifecycle
+  - [ ] Security Groups and SSH
+  - [ ] EBS Storage
+  - [ ] S3 Fundamentals
+  - [ ] VPC, Subnets, and Routing
 - [ ] Deploy an Existing Project to AWS
+  - [ ] Audit SmartFlood V5 architecture
+  - [ ] Prepare application containers
+  - [ ] Design AWS deployment architecture
+  - [ ] Deploy application components
+  - [ ] Configure networking and secrets
+  - [ ] Validate application health
+  - [ ] Document deployment and teardown
 - [ ] Managed Kubernetes (EKS or equivalent)
 - [ ] Cloud Cost Awareness
 - [ ] Billing Alerts
