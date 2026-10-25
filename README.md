@@ -2,7 +2,207 @@
 
 > **Learn. Build. Secure. Deploy. Document.**
 >
-> A hands-on repository documenting my journey into DevSecOps through practical projects, experiments, and real-world software engineering practices.
+> A hands-on repository documenting my journey into DevSecOps through practical projects, experiments, and real-world so# 🗺️ Learning Roadmap
+
+## ✅ Phase 1 — Foundations
+
+- [x] Linux Fundamentals
+- [x] Git & GitHub Workflow
+- [x] PNPM
+
+---
+
+## 🐳 Phase 2 — Containerization
+
+- [x] Docker Fundamentals
+- [x] Docker Images
+- [x] Docker Containers
+- [x] Docker Volumes
+- [x] Docker Networks
+- [x] Docker Compose
+- [x] Dockerfiles & Custom Images
+- [x] Multi-Container Applications
+
+---
+
+## 🚀 Phase 3 — CI/CD
+
+- [x] GitHub Actions
+- [x] Automated Testing
+- [x] Continuous Integration
+- [x] Secrets Management
+- [x] Continuous Deployment
+- [x] Deployment Pipelines
+
+---
+
+## 🛡️ Phase 4 — DevSecOps
+
+- [x] Environment Variables & Secrets Management
+- [x] Dependency Scanning
+- [x] Static Application Security Testing (SAST)
+- [x] CodeQL
+- [x] Trivy Container Scanning
+- [x] Container Security
+- [x] Secure CI/CD Pipelines
+- [x] Branch Protection
+- [x] OWASP Security Practices
+
+---
+
+## 🌐 Phase 5 — Infrastructure
+
+- [x] Nginx
+- [x] Reverse Proxy
+- [x] HTTPS
+- [x] SSL Certificates
+
+---
+
+## 🗄️ Phase 6 — Databases & Caching
+
+- [x] PostgreSQL in Docker
+- [x] SQL CRUD
+- [x] Docker Volumes
+- [x] Persistence
+- [x] Database Migrations (conceptually)
+- [x] Backups
+- [x] Redis
+
+---
+
+## 📈 Phase 7 — Monitoring & Observability
+
+- [x] Application Logging
+- [x] Health Checks
+- [x] Docker Health Checks
+- [x] Prometheus installation
+- [x] Metrics endpoint
+- [x] Grafana
+- [x] Dashboards
+- [x] Visualization
+
+### Optional Advanced Topics
+
+- [x] Alerting fundamentals
+- [x] Grafana alerts
+- [x] Alert rules and thresholds
+- [x] Notification channels (conceptually)
+- [x] Incident response basics (conceptually)
+
+---
+
+## ☁️ Phase 8 — Cloud & Orchestration
+
+- [x] Kubernetes Fundamentals
+  - [x] What problem Kubernetes solves
+  - [x] Cluster, Node, Pod, Container
+  - [x] Install kubectl
+  - [x] Install Kind
+  - [x] Create your first cluster
+- [x] Pods
+  - [x] Create Pods
+  - [x] Inspect Pods
+  - [x] Delete Pods
+- [x] Deployments
+  - [x] Deployment Fundamentals
+  - [x] ReplicaSets
+  - [x] Self-Healing
+  - [x] Scaling Deployments
+- [x] Services
+  - [x] Labels
+  - [x] Selectors
+  - [x] ClusterIP
+  - [x] NodePort
+  - [x] LoadBalancer
+  - [x] Exposing Deployments
+  - [x] Pod Networking
+- [ ] ConfigMaps
+- [ ] Secrets
+- [ ] Helm
+
+---
+
+## ☁️ Phase 9 — Cloud Engineering
+
+- [x] AWS Account Setup and Cost Safeguards
+  - [x] Inspect AWS credits and billing
+  - [ ] Configure a cost budget
+  - [ ] Configure billing alerts
+- [ ] AWS Fundamentals
+  - [ ] AWS Regions and Availability Zones
+  - [ ] IAM and Least Privilege
+  - [ ] EC2 Instance Lifecycle
+  - [ ] Security Groups and SSH
+  - [ ] EBS Storage
+  - [ ] S3 Fundamentals
+  - [ ] VPC, Subnets, and Routing
+- [ ] Deploy an Existing Project to AWS
+  - [ ] Audit SmartFlood V5 architecture
+  - [ ] Prepare application containers
+  - [ ] Design AWS deployment architecture
+  - [ ] Deploy application components
+  - [ ] Configure networking and secrets
+  - [ ] Validate application health
+  - [ ] Document deployment and teardown
+- [ ] Managed Kubernetes (EKS or equivalent)
+- [ ] Cloud Cost Awareness
+- [ ] Billing Alerts
+
+---
+
+## 🏗️ Phase 10 — Infrastructure as Code
+
+- [ ] Terraform Fundamentals
+- [ ] Provision Infrastructure with Terraform
+- [ ] Remote State
+- [ ] GitOps Fundamentals
+- [ ] ArgoCD or Flux
+- [ ] Infrastructure as Code Best Practices
+
+---
+
+## 🧠 Phase 11 — Computer Science Fundamentals
+
+- [ ] Data Structures & Algorithms
+  - [ ] Arrays
+  - [ ] Hash Maps
+  - [ ] Trees
+  - [ ] Graphs
+  - [ ] Sorting
+  - [ ] Searching
+- [ ] Big-O Analysis
+- [ ] Systems Fundamentals
+  - [ ] Database Internals
+  - [ ] TCP/IP Fundamentals
+  - [ ] Operating Systems
+- [ ] Complexity Analysis of Real Projects
+
+---
+
+## 🤖 Phase 12 — AI Engineering
+
+- [ ] LLM API Fundamentals
+- [ ] Prompt Engineering
+- [ ] Structured Outputs
+- [ ] Function / Tool Calling
+- [ ] Retrieval-Augmented Generation (RAG)
+- [ ] Embeddings & Vector Databases
+- [ ] AI Coding Workflows
+- [ ] AI System Reliability
+
+---
+
+## 🏛️ Phase 13 — System Design
+
+- [ ] URL Shortener
+- [ ] Rate Limiter
+- [ ] Notification System
+- [ ] Chat Application
+- [ ] Scalability Fundamentals
+- [ ] Database Trade-offs
+- [ ] Caching Strategies
+- [ ] Designing Existing Projectsftware engineering practices.
 
 ---
 
@@ -234,6 +434,46 @@ This repository exists to:
 - [ ] Database Trade-offs
 - [ ] Caching Strategies
 - [ ] Designing Existing Projects
+
+---
+
+## ☁️ Phase 14 — Google Cloud Run Deployment
+
+- [x] Existing Cloud Run Deployment
+  - [x] Deploy an existing application to Google Cloud Run
+  - [x] Use containerized application services
+  - [x] Verify the current deployed services and URLs
+- [ ] Cloud Run Fundamentals
+  - [ ] Google Cloud projects and regions
+  - [ ] Cloud Run services and revisions
+  - [ ] Container startup and port configuration
+  - [ ] Request-based scaling and concurrency
+- [x] Application Configuration
+  - [x] Environment variables
+  - [x] Secret management
+  - [ ] Service-to-service communication
+  - [x] Database connectivity
+- [ ] Networking and Security
+  - [ ] Public versus authenticated access
+  - [ ] Service identity and IAM permissions
+  - [ ] Secure handling of application secrets
+  - [ ] Review exposed endpoints and access controls
+- [x] Operations and Observability
+  - [x] Inspect deployment logs
+  - [x] Verify application health
+  - [x] Understand revisions and rollbacks
+  - [ ] Review resource limits and scaling behavior
+- [x] Cloud Cost Management
+  - [x] Review Cloud Run billing
+  - [ ] Understand request-based billing and resource charges
+  - [ ] Review active resources and potential costs
+  - [ ] Document cleanup procedures
+- [x] Documentation and Reflection
+  - [x] Document the existing architecture
+  - [x] Document deployment procedures
+  - [ ] Record configuration decisions and trade-offs
+  - [ ] Document issues and lessons learned
+  - [ ] Compare Cloud Run with AWS deployment options
 
 # 📂 Repository Structure
 
