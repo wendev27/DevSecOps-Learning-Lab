@@ -25,21 +25,6 @@ The goals of this module are to:
 
 Contains structured study notes and revision materials organized by cybersecurity domain.
 
-Topics may include:
-
-- Security Governance, Risk, and Compliance
-- Identity and Access Management (IAM)
-- Network Security
-- Endpoint Security
-- Cloud Security
-- Security Operations and Incident Response
-- Vulnerability Management
-- Application Security
-- Data Protection and Privacy
-- Security Architecture and Engineering
-
-These topics are a provisional study scope based on assessment information available to the author. The actual coverage of an individual assessment may differ.
-
 ### `Practice/`
 
 Contains original practice materials designed to test understanding and reinforce learning.
